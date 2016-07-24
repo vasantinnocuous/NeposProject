@@ -1,0 +1,75 @@
+/* app css stylesheet */
+
+body {
+  margin-bottom: 5px;
+}
+
+ a {
+  color: black;
+  font-size: 50px;
+  background: AliceBlue;
+  padding-right: 172px;
+  padding-bottom: 10px;
+  padding-left: 165px;
+  width: 10%;
+
+}
+
+.menu {
+  list-style: none;
+  margin-bottom: 0.02em;
+  margin-top: 0.02em;
+  padding: 0 0 0.5em;
+
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.view1 {
+  display: inline;
+  color: white;
+  font-size: 50px;
+  padding-left: 120px;
+  padding-right: 140px;
+  width: 100%;
+  margin-right: 0.5em;
+  font-size: 13px;
+  background-color: navy;
+  height: 50px;
+  margin: 2.5%;
+}
+
+.view2 {
+  display: inline;
+  color: white;
+  padding-left: 140px;
+  padding-right: 160px;
+  margin-top: 0%;
+  margin: 34.5%;
+  width: 100%;
+  margin-bottom: 2em;
+  font-size: 13px;
+  background-color: navy;
+
+}
+
+.view3 {
+  margin-top: 10em;
+  display: inline;
+  color: white;
+  margin-right: 0.5em;
+  font-size: 13px;
+  padding-left: 120px;
+  padding-right: 140px;
+  width: 100%;
+  background-color: navy;
+  margin:3.25%;
+
+}
